@@ -28,4 +28,4 @@ O-Net相比R-Net在结构上又多出一个中间层，输出结果一样。
   2）找近邻：圈定距离最近的k个训练对象，作为未知对象的近邻； 
   3）做分类：在这k个近邻中出线次数最多的类别就是测试对象的预测类别。
 使用5个人的人脸样本，每个人40张训练knn模型，从摄像头读取视频帧，下载knn模型做实时的识别，准确率在90%左右。
-![image](https://github.com/fuxi5788/face-recognition/raw/master/images/log.png)
+![image](https://github.com/fuxi5788/face-recognition/raw/master/images/log.PNG)
